@@ -26,7 +26,7 @@ struct ContentView: View {
             Text("Kent's Tip Calculator")
                 .font(.largeTitle)
                 .fontWeight(.bold)
-                .padding(30)
+                .padding(35)
                 Spacer()
             
             Text("Total with tip: \(String(format: "%.2f", withtip))")
